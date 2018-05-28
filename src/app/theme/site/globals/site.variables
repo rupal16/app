@@ -1,8 +1,8 @@
 @import (reference) './../../variables.less';
 
 @fontName          : 'Source Sans Pro';
-@headerFont        : @fontName, Helvetica, sans-serif;
-@pageFont          : @fontName, Helvetica, sans-serif;
+@headerFont        : 'Dosis', sans-serif;
+@pageFont          : 'Open Sans', sans-serif;
 @importGoogleFonts : false;
 
 @emSize   : 14px;
@@ -10,8 +10,8 @@
 
 @primaryColor: @primary;
 @secondaryColor: @accent;
-@lightPrimaryColor: @primaryl;
-@lightSecondaryColor: @accentl;
+@lightPrimaryColor: lighten(@primary, 10%);
+@lightSecondaryColor: lighten(@accent, 10%);
 
 
 @textColor: rgb(99,99,99);

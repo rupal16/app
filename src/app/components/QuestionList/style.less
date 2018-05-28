@@ -12,18 +12,18 @@
       color: @primaryTextColor
     }
     &.col-1 {
-      background-color: @primaryd;
-      color: @primaryTextColor
+      background-color: lighten(@primary, 10%);
     }
     &.col-2 {
-      background-color: @primaryl;
-    }
-    &.col-3 {
-      background-color: @primarydd;
+      background-color: darken(@primary, 10%);
       color: @primaryTextColor
     }
+    &.col-3 {
+      background-color: lighten(@primary, 20%);
+    }
     &.col-4 {
-      background-color: @primaryll;
+      background-color: darken(@primary, 20%);
+      color: @primaryTextColor
     }
   }
 }
