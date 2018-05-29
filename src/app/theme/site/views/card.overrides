@@ -1,0 +1,6 @@
+
+#impactasaurus {
+  .ui.cards > .card > .content > .header, .ui.card > .content > .header {
+    font-family: @pageFont;
+  }
+}

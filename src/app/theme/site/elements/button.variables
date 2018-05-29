@@ -4,3 +4,6 @@
 @activeHoverBackgroundColor: darken(@primary, 5%);
 @activeColor: @primaryTextColor;
 @fontWeight: normal;
+
+
+@backgroundColor: @gray

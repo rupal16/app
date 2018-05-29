@@ -19,8 +19,8 @@ class FancyBox extends React.Component<IProps, any> {
     return (
       <div className="FancyBox" onClick={this.props.onClick}>
         <Icon name={this.props.icon} />
-        <h1>{this.props.title}</h1>
-        <h3>{this.props.text}</h3>
+        <h1 className="white">{this.props.title}</h1>
+        <p>{this.props.text}</p>
       </div>
     );
   }

@@ -32,14 +32,12 @@ class AssessmentTypeSelector extends React.Component<IProps, any> {
         <Card>
           <div className="type-pic first">
             <Icon name="comments outline" size="big" />
+            <h2 className="white">Live</h2>
           </div>
           <Card.Content>
             <Card.Header>
-              Live
-            </Card.Header>
-            <Card.Meta>
               Complete together
-            </Card.Meta>
+            </Card.Header>
             <Card.Description>
               Complete the questionnaire together
             </Card.Description>
@@ -51,14 +49,12 @@ class AssessmentTypeSelector extends React.Component<IProps, any> {
         <Card>
           <div className="type-pic second">
             <Icon name="linkify" size="big" />
+            <h2 className="white">Remote</h2>
           </div>
           <Card.Content>
             <Card.Header>
-              Remote
-            </Card.Header>
-            <Card.Meta>
               Send a link
-            </Card.Meta>
+            </Card.Header>
             <Card.Description>
               Generates a link that you can send to the beneficiary to complete on their own. The link will be valid for {defaultRemoteMeetingLimit} days
             </Card.Description>
@@ -70,14 +66,12 @@ class AssessmentTypeSelector extends React.Component<IProps, any> {
         <Card>
           <div className="type-pic third">
             <Icon name="file text outline" size="big" />
+            <h2 className="white">Data Entry</h2>
           </div>
           <Card.Content>
             <Card.Header>
-              Data Entry
-            </Card.Header>
-            <Card.Meta>
               Enter historic data
-            </Card.Meta>
+            </Card.Header>
             <Card.Description>
               Enter data gathered historically into the system. For example, if you completed the questionnaire on paper with the beneficiary
             </Card.Description>
